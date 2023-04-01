@@ -4,7 +4,8 @@ On Ubuntu, the dependencies can be installed with the command:
 
 ```shell
 sudo apt -y install qtbase5-dev libqt5svg5-dev libqt5websockets5-dev \
-      libqt5opengl5-dev libqt5x11extras5-dev libprotoc-dev libzmq-dev
+      libqt5opengl5-dev libqt5x11extras5-dev libprotoc-dev libzmq3-dev \
+      liblz4-dev libzstd-dev
 ```
 
 On Fedora:
